@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.templates')
 
 @section('content')
       <div class="py-5 bg-primary">
