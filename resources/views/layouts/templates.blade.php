@@ -21,7 +21,7 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand navbar-dark bg-dark osahan-nav-top p-0">
          <div class="container">
-            <a class="navbar-brand mr-2" href="index.html"><img src="https://askbootstrap.com/preview/osahanin/light/img/logo.svg" alt="">
+            <a class="navbar-brand mr-2" href="{{route('home')}}"><img src="https://askbootstrap.com/preview/osahanin/light/img/logo.svg" alt="">
             </a>
             <form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
                <div class="input-group">
@@ -152,7 +152,7 @@
                      <h6 class="dropdown-header">
                         Alerts Center
                      </h6>
-                     <a class="dropdown-item d-flex align-items-center" href="notifications.html">
+                     <a class="dropdown-item d-flex align-items-center" href="{{route('notifications')}}">
                         <div class="mr-3">
                            <div class="icon-circle bg-primary">
                               <i class="feather-download-cloud text-white"></i>
@@ -163,7 +163,7 @@
                            <span class="font-weight-bold">A new monthly report is ready to download!</span>
                         </div>
                      </a>
-                     <a class="dropdown-item d-flex align-items-center" href="notifications.html">
+                     <a class="dropdown-item d-flex align-items-center" href="{{route('notifications')}}">
                         <div class="mr-3">
                            <div class="icon-circle bg-success">
                               <i class="feather-edit text-white"></i>
@@ -174,7 +174,7 @@
                            $290.29 has been deposited into your account!
                         </div>
                      </a>
-                     <a class="dropdown-item d-flex align-items-center" href="notifications.html">
+                     <a class="dropdown-item d-flex align-items-center" href="{{route('notifications')}}">
                         <div class="mr-3">
                            <div class="icon-circle bg-warning">
                               <i class="feather-folder text-white"></i>

@@ -44,7 +44,7 @@
                            <div class="p-3 border-top">
                               <div class="row">
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -71,7 +71,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -97,7 +97,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -123,7 +123,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -150,7 +150,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -177,7 +177,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -204,7 +204,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -230,7 +230,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
@@ -271,8 +271,8 @@
                                           </div>
                                           <div class="media-body">
                                              <div class="mb-3">
-                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">C# Developer</a></h6>
-                                                <a class="d-inline-block small pt-1" href="job-profile.html">
+                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">C# Developer</a></h6>
+                                                <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                                                 <span class="text-warning">
                                                 <span class="feather-star"></span>
                                                 <span class="feather-star"></span>
@@ -286,9 +286,9 @@
                                              </div>
                                              <div class="d-flex align-items-center">
                                                 <div class="border-right pr-3 mr-3">
-                                                   <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                                   <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                                                 </div>
-                                                <a class="small" href="job-profile.html">Open jobs</a>
+                                                <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                                              </div>
                                           </div>
                                        </div>
@@ -302,8 +302,8 @@
                                           </div>
                                           <div class="media-body">
                                              <div class="mb-3">
-                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">Junior UX Designer</a></h6>
-                                                <a class="d-inline-block small pt-1" href="job-profile.html">
+                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">Junior UX Designer</a></h6>
+                                                <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                                                 <span class="text-warning">
                                                 <span class="feather-star"></span>
                                                 <span class="feather-star"></span>
@@ -317,9 +317,9 @@
                                              </div>
                                              <div class="d-flex align-items-center">
                                                 <div class="border-right pr-3 mr-3">
-                                                   <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                                   <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                                                 </div>
-                                                <a class="small" href="job-profile.html">Open jobs</a>
+                                                <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                                              </div>
                                           </div>
                                        </div>
@@ -333,8 +333,8 @@
                                           </div>
                                           <div class="media-body">
                                              <div class="mb-3">
-                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">Junior UX Designer</a></h6>
-                                                <a class="d-inline-block small pt-1" href="job-profile.html">
+                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">Junior UX Designer</a></h6>
+                                                <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                                                 <span class="text-warning">
                                                 <span class="feather-star"></span>
                                                 <span class="feather-star"></span>
@@ -348,9 +348,9 @@
                                              </div>
                                              <div class="d-flex align-items-center">
                                                 <div class="border-right pr-3 mr-3">
-                                                   <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                                   <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                                                 </div>
-                                                <a class="small" href="job-profile.html">Open jobs</a>
+                                                <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                                              </div>
                                           </div>
                                        </div>
@@ -364,8 +364,8 @@
                                           </div>
                                           <div class="media-body">
                                              <div class="mb-3">
-                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">Junior UX Designer</a></h6>
-                                                <a class="d-inline-block small pt-1" href="job-profile.html">
+                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">Junior UX Designer</a></h6>
+                                                <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                                                 <span class="text-warning">
                                                 <span class="feather-star"></span>
                                                 <span class="feather-star"></span>
@@ -379,9 +379,9 @@
                                              </div>
                                              <div class="d-flex align-items-center">
                                                 <div class="border-right pr-3 mr-3">
-                                                   <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                                   <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                                                 </div>
-                                                <a class="small" href="job-profile.html">Open jobs</a>
+                                                <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                                              </div>
                                           </div>
                                        </div>
@@ -395,8 +395,8 @@
                                           </div>
                                           <div class="media-body">
                                              <div class="mb-3">
-                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">Junior UX Designer</a></h6>
-                                                <a class="d-inline-block small pt-1" href="job-profile.html">
+                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">Junior UX Designer</a></h6>
+                                                <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                                                 <span class="text-warning">
                                                 <span class="feather-star"></span>
                                                 <span class="feather-star"></span>
@@ -410,9 +410,9 @@
                                              </div>
                                              <div class="d-flex align-items-center">
                                                 <div class="border-right pr-3 mr-3">
-                                                   <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                                   <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                                                 </div>
-                                                <a class="small" href="job-profile.html">Open jobs</a>
+                                                <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                                              </div>
                                           </div>
                                        </div>
@@ -426,8 +426,8 @@
                                           </div>
                                           <div class="media-body">
                                              <div class="mb-3">
-                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">Junior UX Designer</a></h6>
-                                                <a class="d-inline-block small pt-1" href="job-profile.html">
+                                                <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">Junior UX Designer</a></h6>
+                                                <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                                                 <span class="text-warning">
                                                 <span class="feather-star"></span>
                                                 <span class="feather-star"></span>
@@ -441,9 +441,9 @@
                                              </div>
                                              <div class="d-flex align-items-center">
                                                 <div class="border-right pr-3 mr-3">
-                                                   <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                                   <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                                                 </div>
-                                                <a class="small" href="job-profile.html">Open jobs</a>
+                                                <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                                              </div>
                                           </div>
                                        </div>
@@ -482,7 +482,7 @@
                            <div class="p-3 w-100">
                               <div class="row">
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -514,7 +514,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -546,7 +546,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -577,7 +577,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -609,7 +609,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -640,7 +640,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -672,7 +672,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -703,7 +703,7 @@
                                     </a>
                                  </div>
                                  <div class="col-md-6">
-                                    <a href="profile.html">
+                                    <a href="{{route('profile')}}">
                                        <div class="border network-item rounded mb-3">
                                           <div class="p-3 d-flex align-items-center network-item-header">
                                              <div class="dropdown-list-image mr-3">
@@ -758,8 +758,8 @@
                         </div>
                         <div class="media-body">
                            <div class="mb-3">
-                              <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">C# Developer</a></h6>
-                              <a class="d-inline-block small pt-1" href="job-profile.html">
+                              <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">C# Developer</a></h6>
+                              <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                               <span class="text-warning">
                               <span class="feather-star"></span>
                               <span class="feather-star"></span>
@@ -773,9 +773,9 @@
                            </div>
                            <div class="d-flex align-items-center">
                               <div class="border-right pr-3 mr-3">
-                                 <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                 <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                               </div>
-                              <a class="small" href="job-profile.html">Open jobs</a>
+                              <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                            </div>
                         </div>
                      </div>
@@ -787,8 +787,8 @@
                         </div>
                         <div class="media-body">
                            <div class="mb-3">
-                              <h6 class="font-weight-bold mb-0"><a class="text-dark" href="job-profile.html">Junior UX Designer</a></h6>
-                              <a class="d-inline-block small pt-1" href="job-profile.html">
+                              <h6 class="font-weight-bold mb-0"><a class="text-dark" href="{{route('job-profile')}}">Junior UX Designer</a></h6>
+                              <a class="d-inline-block small pt-1" href="{{route('job-profile')}}">
                               <span class="text-warning">
                               <span class="feather-star"></span>
                               <span class="feather-star"></span>
@@ -802,9 +802,9 @@
                            </div>
                            <div class="d-flex align-items-center">
                               <div class="border-right pr-3 mr-3">
-                                 <a class="text-secondary small" href="job-profile.html">Salaries</a>
+                                 <a class="text-secondary small" href="{{route('job-profile')}}">Salaries</a>
                               </div>
-                              <a class="small" href="job-profile.html">Open jobs</a>
+                              <a class="small" href="{{route('job-profile')}}">Open jobs</a>
                            </div>
                         </div>
                      </div>
@@ -815,7 +815,7 @@
                      <h6 class="font-weight-bold text-dark mb-1">Because you viewed</h6>
                      <p class="mb-0 text-muted">Designer at Google?</p>
                   </div>
-                  <a href="job-profile.html">
+                  <a href="{{route('job-profile')}}">
                      <div class="shadow-sm rounded bg-white job-item mb-3">
                         <div class="d-flex align-items-center p-3 job-item-header">
                            <div class="overflow-hidden mr-2">
@@ -841,7 +841,7 @@
                         </div>
                      </div>
                   </a>
-                  <a href="job-profile.html">
+                  <a href="{{route('job-profile')}}">
                      <div class="shadow-sm rounded bg-white job-item mb-3">
                         <div class="d-flex align-items-center p-3 job-item-header">
                            <div class="overflow-hidden mr-2">
