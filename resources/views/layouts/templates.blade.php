@@ -21,7 +21,7 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand navbar-dark bg-dark osahan-nav-top p-0">
          <div class="container">
-            <a class="navbar-brand mr-2" href="index.html"><img src="https://askbootstrap.com/preview/osahanin/light/img/logo.svg" alt="">
+            <a class="navbar-brand mr-2" href="{{route('home')}}"><img src="https://askbootstrap.com/preview/osahanin/light/img/logo.svg" alt="">
             </a>
             <form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
                <div class="input-group">

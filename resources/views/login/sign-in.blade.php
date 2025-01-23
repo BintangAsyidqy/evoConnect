@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+      <!-- Data dasar -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
+
+      <!-- Icon -->
       <link rel="icon" type="image/png" href="img/fav.png">
+
+      <!-- Judul halaman -->
       <title>Osahanin - Job Portal & Social Network HTML Template</title>
-      <!-- Slick Slider -->
+
+      <!-- Slick Slider CSS -->
       <link rel="stylesheet" type="text/css" href="vendor/slick/slick.min.css"/>
       <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.min.css"/>
-      <!-- Feather Icon-->
+
+      <!-- Feather Icon CSS -->
       <link href="vendor/icons/feather.css" rel="stylesheet" type="text/css">
-      <!-- Bootstrap core CSS -->
+
+      <!-- Bootstrap CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <!-- Custom styles for this template -->
+
+      <!-- Custom CSS -->
       <link href="css/style.css" rel="stylesheet">
    </head>
    <body>
+      <!-- Bagian utama halaman -->
       <div class="bg-white">
          <div class="container">
             <div class="row justify-content-center align-items-center d-flex vh-100">
                <div class="col-md-4 mx-auto">
+                  <!-- Kotak login -->
                   <div class="osahan-login py-4">
+                     <!-- Header login -->
                      <div class="text-center mb-4">
                         <a href="{{route('home')}}"><img src="img/logo.svg" alt=""></a>
                         <h5 class="font-weight-bold mt-3">Welcome Back</h5>
                         <p class="text-muted">Don't miss your next opportunity. Sign in to stay updated on your professional world.</p>
                      </div>
-                     <form action="{{route('connect.index')}}">
+                     <!-- Form login ini digunakan untuk autentikasi pengguna -->
+                     {{-- Route ini -({{route('home')}})- digunakan untuk mengarahkan pengguna ke halaman home --}}
+                     <form action="{{route('home')}}">
+                        <!-- Input untuuk email atau nomor telepon -->
                         <div class="form-group">
                            <label class="mb-1">Email or Phone</label>
                            <div class="position-relative icon-form-control">
@@ -36,6 +51,7 @@
                               <input type="email" class="form-control">
                            </div>
                         </div>
+                        <!-- Input untuk password -->
                         <div class="form-group">
                            <label class="mb-1">Password</label>
                            <div class="position-relative icon-form-control">
@@ -43,11 +59,15 @@
                               <input type="password" class="form-control">
                            </div>
                         </div>
+                        <!-- Untuk Checkbox remember password -->
                         <div class="custom-control custom-checkbox mb-3">
                            <input type="checkbox" class="custom-control-input" id="customCheck1">
                            <label class="custom-control-label" for="customCheck1">Remember password</label>
                         </div>
+                        <!-- Tombol ketika kita ingin submit form login -->
                         <button class="btn btn-primary btn-block text-uppercase" type="submit"> Sign in </button>
+
+                        <!-- Opsi login mennggunakam media sosial -->
                         <div class="text-center mt-3 border-bottom pb-3">
                            <p class="small text-muted">Or login with</p>
                            <div class="row">
@@ -62,8 +82,12 @@
                               </div>
                            </div>
                         </div>
+
+                        <!--terdapat link untuk lupa password dan daftar akun baru -->
                         <div class="py-3 d-flex align-item-center">
+                           {{-- Route ketika kita lupa password dan akan mengarahkan ke file forgot-password --}}
                            <a href="{{route('forgot-password')}}">Forgot password?</a>
+                           {{-- Route ketika kita tidak mempunyai akun dan harus membuatnya terlebih dahulu, route ini akan mengarahkan ke file sign-up --}}
                            <span class="ml-auto"> New to Osahanin? <a class="font-weight-bold" href="{{route('sign-up')}}">Join now</a></span>
                         </div>
                      </form>
@@ -72,12 +96,15 @@
             </div>
          </div>
       </div>
-      <!-- Bootstrap core JavaScript -->
+
+      <!-- JavaScript inti Bootstrap -->
       <script src="vendor/jquery/jquery.min.js"></script>
       <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <!-- slick Slider JS-->
+
+      <!-- slick Slider JavaScript -->
       <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
-      <!-- Custom scripts for all pages-->
+
+      <!-- JavaScript custom untuk halaman ini -->
       <script src="js/osahan.js"></script>
    </body>
 </html>

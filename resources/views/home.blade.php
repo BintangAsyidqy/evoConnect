@@ -415,12 +415,11 @@
          </div>
       </div>
       <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js" type="91ad7c56503a35a5b2478489-text/javascript"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" type="91ad7c56503a35a5b2478489-text/javascript"></script>
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
       <!-- slick Slider JS-->
-      <script type="91ad7c56503a35a5b2478489-text/javascript" src="vendor/slick/slick.min.js"></script>
+      <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
       <!-- Custom scripts for all pages-->
-      <script src="js/osahan.js" type="91ad7c56503a35a5b2478489-text/javascript"></script>
-   <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="91ad7c56503a35a5b2478489-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9053bb60ac8a3036","version":"2025.1.0","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+      <script src="js/osahan.js"></script>
 
    @endsection 

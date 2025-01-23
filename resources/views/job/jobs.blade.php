@@ -44,7 +44,7 @@
                            <div class="p-3 border-top">
                               <div class="row">
                                  <div class="col-md-6">
-                                    <a href="job-profile.html">
+                                    <a href="{{route('job-profile')}}">
                                        <div class="border job-item mb-3">
                                           <div class="d-flex align-items-center p-3 job-item-header">
                                              <div class="overflow-hidden mr-2">
