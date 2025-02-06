@@ -7,47 +7,39 @@
                <!-- Main Content -->
                <main class="col col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
                   <div class="box shadow-sm border rounded bg-white mb-3 osahan-share-post">
-                     <ul class="nav nav-justified border-bottom osahan-line-tab" id="myTab" role="tablist">
-                        <li class="nav-item">
-                           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="feather-edit"></i> Share an update</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="feather-image"></i> Upload a photo</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="feather-clipboard"></i> Write an article</a>
-                        </li>
-                     </ul>
-                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                           <div class="p-3 d-flex align-items-center w-100" href="#">
-                              <div class="dropdown-list-image mr-3">
-                                 <img class="rounded-circle" src="img/user.png" alt="">
-                                 <div class="status-indicator bg-success"></div>
-                              </div>
-                              <div class="w-100">
-                                 <textarea placeholder="Write your thoughts..." class="form-control border-0 p-0 shadow-none" rows="1"></textarea>
-                              </div>
+                        <div class="p-3 d-flex align-items-center w-100">
+                           <div class="dropdown-list-image mr-3">
+                               <img class="rounded-circle" src="img/user.png" alt="User" width="50">
+                               <div class="status-indicator bg-success"></div>
                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                           <div class="p-3 w-100">
-                              <textarea placeholder="Write your thoughts..." class="form-control border-0 p-0 shadow-none" rows="3"></textarea>
+                           <div class="w-100">
+                               <textarea placeholder="Apa yang Anda pikirkan?" class="form-control border-0 p-0 shadow-none" rows="2"></textarea>
                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                           <div class="p-3 w-100">
-                              <textarea placeholder="Write an article..." class="form-control border-0 p-0 shadow-none" rows="3"></textarea>
+                       </div>
+                       
+                       <!-- Preview Foto -->
+                       <div class="p-3 w-100">
+                           <label for="uploadPhoto" class="btn btn-light btn-sm">
+                               <i class="feather-image"></i> Tambah Foto
+                           </label>
+                           <input type="file" class="form-control-file d-none" id="uploadPhoto" accept="image/*">
+                           
+                           <!-- Area untuk Preview Foto -->
+                           <div id="photoPreview" class="mt-2 d-none">
+                               <img src="" id="previewImage" class="img-fluid rounded" style="max-height: 250px;">
+                               <button class="btn btn-sm btn-danger mt-2" onclick="removeImage()">Hapus</button>
                            </div>
-                        </div>
-                     </div>
-                     <div class="border-top p-3 d-flex align-items-center">
-                        <div class="mr-auto"><a href="#" class="text-link small"><i class="feather-map-pin"></i> Add Location</a></div>
-                        <div class="flex-shrink-1">
-                           <button type="button" class="btn btn-light btn-sm">Preview</button>
-                           <button type="button" class="btn btn-primary btn-sm">Post Status</button>
-                        </div>
-                     </div>
+                       </div>
+                       
+                       <div class="border-top p-3 d-flex align-items-center">
+                           <div class="mr-auto">
+                               <a href="#" class="text-link small"><i class="feather-map-pin"></i> Tambahkan Lokasi</a>
+                           </div>
+                           <div class="flex-shrink-1">
+                               <button type="button" class="btn btn-light btn-sm">Preview</button>
+                               <button type="button" class="btn btn-primary btn-sm">Post Status</button>
+                           </div>
+                       </div>              
                   </div>
                   <div class="box shadow-sm border rounded bg-white mb-3 osahan-post">
                      <div class="p-3 d-flex align-items-center border-bottom osahan-post-header">
@@ -200,8 +192,8 @@
                   <div class="box mb-3 shadow-sm border rounded bg-white profile-box text-center">
                      <div class="py-4 px-3 border-bottom">
                         <img src="img/p13.png" class="img-fluid mt-2 rounded-circle" alt="Responsive image">
-                        <h5 class="font-weight-bold text-dark mb-1 mt-4">Gurdeep Osahan</h5>
-                        <p class="mb-0 text-muted">UI / UX Designer</p>
+                        <h5 class="font-weight-bold text-dark mb-1 mt-4">Bintang Asydqy</h5>
+                        <p class="mb-0 text-muted">Fullstack Developer</p>
                      </div>
                      <div class="d-flex">
                         <div class="col-6 border-right p-3">
@@ -262,59 +254,7 @@
                               <div class="small text-gray-500">Student at Harvard
                               </div>
                            </div>
-                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
-                           </span>
-                        </div>
-                        <div class="d-flex align-items-center osahan-post-header mb-3 people-list">
-                           <div class="dropdown-list-image mr-3">
-                              <img class="rounded-circle" src="img/p9.png" alt="">
-                              <div class="status-indicator bg-success"></div>
-                           </div>
-                           <div class="font-weight-bold mr-2">
-                              <div class="text-truncate">John Doe</div>
-                              <div class="small text-gray-500">Traveler
-                              </div>
-                           </div>
-                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
-                           </span>
-                        </div>
-                        <div class="d-flex align-items-center osahan-post-header mb-3 people-list">
-                           <div class="dropdown-list-image mr-3">
-                              <img class="rounded-circle" src="img/p10.png" alt="">
-                              <div class="status-indicator bg-success"></div>
-                           </div>
-                           <div class="font-weight-bold mr-2">
-                              <div class="text-truncate">Julia Cox</div>
-                              <div class="small text-gray-500">Art Designer
-                              </div>
-                           </div>
-                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
-                           </span>
-                        </div>
-                        <div class="d-flex align-items-center osahan-post-header mb-3 people-list">
-                           <div class="dropdown-list-image mr-3">
-                              <img class="rounded-circle" src="img/p11.png" alt="">
-                              <div class="status-indicator bg-success"></div>
-                           </div>
-                           <div class="font-weight-bold mr-2">
-                              <div class="text-truncate">Robert Cook</div>
-                              <div class="small text-gray-500">Photographer at Photography
-                              </div>
-                           </div>
-                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
-                           </span>
-                        </div>
-                        <div class="d-flex align-items-center osahan-post-header people-list">
-                           <div class="dropdown-list-image mr-3">
-                              <img class="rounded-circle" src="img/p12.png" alt="">
-                              <div class="status-indicator bg-success"></div>
-                           </div>
-                           <div class="font-weight-bold mr-2">
-                              <div class="text-truncate">Richard Bell</div>
-                              <div class="small text-gray-500">Graphic Designer at Envato
-                              </div>
-                           </div>
-                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+                           <span class="ml-auto"><button id="followBtn" type="button" class="btn btn-light btn-sm"><i  id="followIcon" class="feather-user-plus"></i></button>
                            </span>
                         </div>
                      </div>
@@ -421,5 +361,36 @@
       <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
       <!-- Custom scripts for all pages-->
       <script src="js/osahan.js"></script>
+      <script>
+         document.getElementById("uploadPhoto").addEventListener("change", function(event) {
+             const file = event.target.files[0];
+             if (file) {
+                 const reader = new FileReader();
+                 reader.onload = function(e) {
+                     document.getElementById("previewImage").src = e.target.result;
+                     document.getElementById("photoPreview").classList.remove("d-none");
+                 };
+                 reader.readAsDataURL(file);
+             }
+         });
+     
+         function removeImage() {
+             document.getElementById("uploadPhoto").value = "";
+             document.getElementById("photoPreview").classList.add("d-none");
+         }
+     </script>
+     <script>
+      document.getElementById("followBtn").addEventListener("click", function () {
+          var icon = document.getElementById("followIcon");
+          
+          if (icon.classList.contains("feather-user-plus")) {
+              icon.classList.remove("feather-user-plus");
+              icon.classList.add("feather-check");
+          } else {
+              icon.classList.remove("feather-primary");
+              icon.classList.add("feather-user-plus");
+          }
+      });
+  </script>  
 
    @endsection 

@@ -5,8 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
-      <link rel="icon" type="image/png" href="img/fav.png">
-      <title>Osahanin - Job Portal & Social Network HTML Template</title>
+      <link rel="icon" type="image/png" href="{{ asset('img/logo-evo-2.png') }}">
+      <title>EVOConnect</title>
       <!-- Slick Slider -->
       <link rel="stylesheet" type="text/css" href="vendor/slick/slick.min.css"/>
       <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.min.css"/>
@@ -21,7 +21,7 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand navbar-dark bg-dark osahan-nav-top p-0">
          <div class="container">
-            <a class="navbar-brand mr-2" href="{{route('home')}}"><img src="https://askbootstrap.com/preview/osahanin/light/img/logo.svg" alt="">
+            <a class="navbar-brand mr-2" href="{{route('home')}}"><img src="{{ asset('img/logo-evo.png') }}" alt="">
             </a>
             <form class="d-none d-sm-inline-block form-inline mr-auto my-2 my-md-0 mw-100 navbar-search">
                <div class="input-group">

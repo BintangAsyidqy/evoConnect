@@ -8,7 +8,7 @@
       <meta name="author" content="">
 
       <!-- Favicon -->
-      <link rel="icon" type="image/png" href="img/fav.png">
+      <link rel="icon" type="image/png" href="{{ asset('img/logo-evo.png') }}">
 
       <!-- Judul halaman -->
       <title>Osahanin - Job Portal & Social Network HTML Template</title>

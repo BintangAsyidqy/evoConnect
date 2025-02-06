@@ -25,6 +25,15 @@
 
       <!-- Custom CSS -->
       <link href="css/style.css" rel="stylesheet">
+      <style>
+         .logo-evo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+      </style>
    </head>
    <body>
       <!-- Bagian utama halaman -->
@@ -36,7 +45,7 @@
                   <div class="osahan-login py-4">
                      <!-- Header login -->
                      <div class="text-center mb-4">
-                        <a href="{{route('home')}}"><img src="img/logo.svg" alt=""></a>
+                        <a href="{{route('home')}}"><img src="{{ asset('img/logo-evo.png') }}" alt="logo" class="logo-evo"></a>
                         <h5 class="font-weight-bold mt-3">Welcome Back</h5>
                         <p class="text-muted">Don't miss your next opportunity. Sign in to stay updated on your professional world.</p>
                      </div>

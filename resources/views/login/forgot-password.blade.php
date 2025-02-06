@@ -36,7 +36,7 @@
                   <div class="osahan-login py-4">
                      <!-- Header pencarian akun -->
                      <div class="text-center mb-4">
-                        <a href="{{route('home')}}"><img src="img/logo.svg" alt=""></a>
+                        <a href="{{route('home')}}"><img src="{{ asset('img/logo-evo.png') }}" alt=""></a>
                         <h5 class="font-weight-bold mt-3">First, let's find your account</h5>
                         <p class="text-muted">Please enter your email or phone</p>
                      </div>
